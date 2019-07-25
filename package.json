@@ -1,0 +1,34 @@
+{
+  "name": "arbol_binario",
+  "version": "1.0.0",
+  "description": "Árbol binario",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.37.0",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-livereload-plugin": "^2.2.0"
+  }
+}
